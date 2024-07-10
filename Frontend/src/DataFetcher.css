@@ -1,0 +1,135 @@
+/* DataFetcher.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Ensure text color is light */
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 3px;
+}
+
+.form button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #555555;
+}
+
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 600px;
+    margin-top: 20px;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #444444;
+    min-width: 150px;
+    font-size: 12px; /* Smaller font size for table content */
+}
+
+.table th {
+    background-color: #4caf50; /* Distinct color for header */
+    color: #ffffff;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Slightly larger font size for headers */
+}
+
+.table td {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #242424; /* Alternate row color */
+}
+
+.table tbody tr:hover {
+    background-color: #444444; /* Highlight on hover */
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #555555;
+}
+
+.pagination input {
+    padding: 5px;
+    width: 50px;
+    margin-left: 5px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.pagination select {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 3px;
+}
+
+/* Minimize the font size of the table title */
+.table-title {
+    font-size: 18px;
+    color: #f0ad4e; /* Different color for table title */
+    margin-bottom: 10px;
+}
